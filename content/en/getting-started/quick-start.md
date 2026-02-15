@@ -1,218 +1,131 @@
----
-title: Quick start
-description: Create a Hugo site in minutes.
-categories: []
-keywords: []
-params:
-  minVersion: v0.146.0
-weight: 10
-aliases: [/quickstart/,/overview/quickstart/]
----
+Crie um BLOG completo, moderno, leve, responsivo e otimizado para SEO, com estrutura SILO perfeita, voltado para pessoas acima de 45 anos que estão passando por dificuldades financeiras e querem organizar a vida, sair das dívidas e gerar renda extra segura.
 
-In this tutorial you will:
+===========================
+📌 TEMA DO BLOG:
+Vida Financeira Depois dos 45
 
-1. Create a site
-1. Add content
-1. Configure the site
-1. Publish the site
+📌 OBJETIVO:
+Ajudar pessoas de 45 a 65 anos a saírem do sufoco financeiro com soluções simples e realistas, e vender um ebook no final como plano completo.
 
-## Prerequisites
+===========================
+📌 ESTRUTURA DO SITE (SILO)
 
-Before you begin this tutorial you must:
+Crie as páginas principais:
 
-1. [Install Hugo] (extended or extended/deploy edition, {{% param "minVersion" %}} or later)
-1. [Install Git]
+1. index.html (Home Page)
+2. organizacao-financeira.html
+3. sair-do-sufoco.html
+4. dividas-leves.html
+5. economia-domestica.html
+6. renda-extra-45.html
+7. paz-financeira.html
+8. plano-ebook.html (Página de venda)
 
-You must also be comfortable working from the command line.
+===========================
+📌 MENU DO BLOG
 
-## Create a site
+O menu deve ter:
 
-### Commands
+- Início
+- Organização Financeira
+- Sair do Sufoco
+- Dívidas Leves
+- Economia Doméstica
+- Renda Extra 45+
+- Paz Financeira
+- Plano Completo (Ebook)
 
-> [!note]
-> **If you are a Windows user:**
->
-> - Do not use the Command Prompt
-> - Do not use Windows PowerShell
-> - Run these commands from [PowerShell] or a Linux terminal such as WSL or Git > Bash
->
-> PowerShell and Windows PowerShell [are different applications].
+===========================
+📌 CONTEÚDO DE CADA CATEGORIA
 
-Verify that you have installed Hugo {{% param "minVersion" %}} or later.
+Cada página deve ser uma página pilar com:
 
-```text
-hugo version
-```
+✅ Título forte
+✅ Introdução emocional para público 45+
+✅ Lista de artigos internos (links)
+✅ Conteúdo com SEO e palavras semânticas
+✅ CTA suave para o ebook
 
-Run these commands to create a Hugo site with the [Ananke] theme. The next section provides an explanation of each command.
+===========================
+📌 POSTS INTERNOS (Links)
 
-```text
-hugo new site quickstart
-cd quickstart
-git init
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-echo "theme = 'ananke'" >> hugo.toml
-hugo server
-```
+Crie links internos para artigos dentro de cada silo:
 
-View your site at the URL displayed in your terminal. Press `Ctrl + C` to stop Hugo's development server.
+ORGANIZAÇÃO FINANCEIRA:
+- Como montar um orçamento simples depois dos 45
+- Como controlar gastos no mercado aos 50+
+- Checklist para organizar contas em 7 dias
 
-### Explanation of commands
+SAIR DO SUFOCO:
+- Como recomeçar financeiramente aos 50
+- Pequenos passos para sair do aperto ainda este mês
+- Como recuperar o controle da vida financeira
 
-Create the [site skeleton] for your project in the `quickstart` directory.
+DÍVIDAS LEVES:
+- Tenho várias dívidas pequenas: qual pagar primeiro?
+- Como negociar dívida pagando pouco por mês
+- Como evitar golpes financeiros
 
-```text
-hugo new site quickstart
-```
+ECONOMIA DOMÉSTICA:
+- Como economizar no supermercado toda semana
+- Como reduzir gastos com luz e água
+- Hábitos simples para sobrar dinheiro no mês
 
-Change the current directory to the root of your project.
+RENDA EXTRA 45+:
+- Como fazer R$500 a mais por mês depois dos 50
+- Trabalhos simples para complementar renda
+- Renda extra segura sem cair em golpe
 
-```text
-cd quickstart
-```
+PAZ FINANCEIRA:
+- Como parar de se sentir culpado por dívidas
+- Como sair da ansiedade financeira aos 50+
+- A mentalidade de quem vence financeiramente
 
-Initialize an empty Git repository in the current directory.
+===========================
+📌 PÁGINA DO EBOOK (FUNIL)
 
-```text
-git init
-```
+Crie uma página chamada "Plano Completo (Ebook)" com:
 
-Clone the [Ananke] theme into the `themes` directory, adding it to your project as a [Git submodule].
+- História emocional
+- Benefícios do ebook
+- O que a pessoa vai aprender
+- Botão de compra
+- CTA final:
 
-```text
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-```
+"Baixe agora o Plano Completo de 7 Dias para Sair do Sufoco Financeiro"
 
-Append a line to the site configuration file, indicating the current theme.
+===========================
+📌 DESIGN DO BLOG
 
-```text
-echo "theme = 'ananke'" >> hugo.toml
-```
+O design deve ser:
 
-Start Hugo's development server to view the site.
+- Responsivo (celular e desktop)
+- Leve e rápido
+- Estilo moderno e confiável
+- Fonte grande e confortável para público 45+
+- Cores suaves
+- Botões bem visíveis
+- Estrutura clara
 
-```text
-hugo server
-```
+===========================
+📌 SEO OBRIGATÓRIO
 
-Press `Ctrl + C` to stop Hugo's development server.
+Inclua em todas as páginas:
 
-## Add content
+- Meta title e description
+- Headings H1, H2 e H3
+- Palavras-chave naturais como:
 
-Add a new page to your site.
+"vida financeira depois dos 45"
+"como sair do sufoco"
+"renda extra segura"
+"organizar dívidas"
+"economizar dinheiro em casa"
 
-```text
-hugo new content content/posts/my-first-post.md
-```
+===========================
+📌 RESULTADO FINAL
 
-Hugo created the file in the `content/posts` directory. Open the file with your editor.
+Entregue o site completo em HTML + CSS,
+com todas as páginas separadas e prontas para eu copiar e colar no Netlify ou Google Sites.
 
-```text
-+++
-title = 'My First Post'
-date = 2024-01-14T07:07:07+01:00
-draft = true
-+++
-```
-
-Notice the `draft` value in the [front matter] is `true`. By default, Hugo does not publish draft content when you build the site. Learn more about [draft, future, and expired content].
-
-Add some [Markdown] to the body of the post, but do not change the `draft` value.
-
-```text
-+++
-title = 'My First Post'
-date = 2024-01-14T07:07:07+01:00
-draft = true
-+++
-## Introduction
-
-This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
-```
-
-Save the file, then start Hugo's development server to view the site. You can run either of the following commands to include draft content.
-
-```text
-hugo server --buildDrafts
-hugo server -D
-```
-
-View your site at the URL displayed in your terminal. Keep the development server running as you continue to add and change content.
-
-When satisfied with your new content, set the front matter `draft` parameter to `false`.
-
-> [!note]
-> Hugo's rendering engine conforms to the CommonMark [specification] for Markdown. The CommonMark organization provides a useful [live testing tool] powered by the reference implementation.
-
-## Configure the site
-
-With your editor, open the [site configuration] file (`hugo.toml`) in the root of your project.
-
-```text
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
-```
-
-Make the following changes:
-
-1. Set the `baseURL` for your production site. This value must begin with the protocol and end with a slash, as shown above.
-1. Set the `languageCode` to your language and region.
-1. Set the `title` for your production site.
-
-Start Hugo's development server to see your changes, remembering to include draft content.
-
-```text
-hugo server -D
-```
-
-> [!note]
-> Most theme authors provide configuration guidelines and options. Make sure to visit your theme's repository or documentation site for details.
->
-> [The New Dynamic], authors of the Ananke theme, provide [documentation] for configuration and usage. They also provide a [demonstration site].
-
-## Publish the site
-
-In this step you will _publish_ your site, but you will not _deploy_ it.
-
-When you _publish_ your site, Hugo creates the entire static site in the `public` directory in the root of your project. This includes the HTML files, and assets such as images, CSS files, and JavaScript files.
-
-When you publish your site, you typically do _not_ want to include [draft, future, or expired content]. The command is simple.
-
-```text
-hugo
-```
-
-To learn how to _deploy_ your site, see the [host and deploy] section.
-
-## Ask for help
-
-Hugo's [forum] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help] before asking your first question.
-
-## Other resources
-
-For other resources to help you learn Hugo, including books and video tutorials, see the [external learning resources](/getting-started/external-learning-resources/) page.
-
-[Ananke]: https://github.com/theNewDynamic/gohugo-theme-ananke
-[are different applications]: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.3
-[demonstration site]: https://gohugo-ananke-theme-demo.netlify.app/
-[site skeleton]: /getting-started/directory-structure/#site-skeleton
-[documentation]: https://github.com/theNewDynamic/gohugo-theme-ananke#readme
-[draft, future, and expired content]: /getting-started/usage/#draft-future-and-expired-content
-[draft, future, or expired content]: /getting-started/usage/#draft-future-and-expired-content
-[forum]: https://discourse.gohugo.io/
-[front matter]: /content-management/front-matter/
-[Git submodule]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
-[host and deploy]: /host-and-deploy/
-[Install Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[Install Hugo]: /installation/
-[live testing tool]: https://spec.commonmark.org/dingus/
-[Markdown]: https://daringfireball.net/projects/markdown
-[PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
-[requesting help]: https://discourse.gohugo.io/t/requesting-help/9132
-[site configuration]: /configuration/
-[specification]: https://spec.commonmark.org/
-[The New Dynamic]: https://www.thenewdynamic.com/
+Crie tudo agora.
